@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		1E1FA8C01A102788005FB8F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8BF1A102788005FB8F0 /* main.m */; };
 		1E1FA8C31A102788005FB8F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8C21A102788005FB8F0 /* AppDelegate.m */; };
-		1E1FA8C61A102788005FB8F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8C51A102788005FB8F0 /* ViewController.m */; };
 		1E1FA8C91A102788005FB8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1FA8C71A102788005FB8F0 /* Main.storyboard */; };
 		1E1FA8CB1A102788005FB8F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1FA8CA1A102788005FB8F0 /* Images.xcassets */; };
 		1E1FA8CE1A102788005FB8F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1FA8CC1A102788005FB8F0 /* LaunchScreen.xib */; };
 		1E1FA8DA1A102789005FB8F0 /* PrySliderNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8D91A102789005FB8F0 /* PrySliderNavigationTests.m */; };
+		1E1FA8E61A102A5D005FB8F0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8E51A102A5D005FB8F0 /* SWRevealViewController.m */; };
+		1E1FA8E91A102A9D005FB8F0 /* MenuIzqVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8E81A102A9D005FB8F0 /* MenuIzqVC.m */; };
+		1E1FA8EC1A102AB6005FB8F0 /* MenuDerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8EB1A102AB6005FB8F0 /* MenuDerVC.m */; };
+		1E1FA8EF1A102ADC005FB8F0 /* PrincipalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8EE1A102ADC005FB8F0 /* PrincipalVC.m */; };
+		1E1FA8F21A102AF8005FB8F0 /* Vista02Izq.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8F11A102AF8005FB8F0 /* Vista02Izq.m */; };
+		1E1FA8F51A102B09005FB8F0 /* Vista02Der.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FA8F41A102B09005FB8F0 /* Vista02Der.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		1E1FA8BF1A102788005FB8F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E1FA8C11A102788005FB8F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E1FA8C21A102788005FB8F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E1FA8C41A102788005FB8F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E1FA8C51A102788005FB8F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1E1FA8C81A102788005FB8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E1FA8CA1A102788005FB8F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1E1FA8CD1A102788005FB8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1E1FA8D31A102789005FB8F0 /* PrySliderNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrySliderNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1FA8D81A102789005FB8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E1FA8D91A102789005FB8F0 /* PrySliderNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrySliderNavigationTests.m; sourceTree = "<group>"; };
+		1E1FA8E41A102A5D005FB8F0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		1E1FA8E51A102A5D005FB8F0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		1E1FA8E71A102A9D005FB8F0 /* MenuIzqVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuIzqVC.h; sourceTree = "<group>"; };
+		1E1FA8E81A102A9D005FB8F0 /* MenuIzqVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuIzqVC.m; sourceTree = "<group>"; };
+		1E1FA8EA1A102AB6005FB8F0 /* MenuDerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDerVC.h; sourceTree = "<group>"; };
+		1E1FA8EB1A102AB6005FB8F0 /* MenuDerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuDerVC.m; sourceTree = "<group>"; };
+		1E1FA8ED1A102ADC005FB8F0 /* PrincipalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalVC.h; sourceTree = "<group>"; };
+		1E1FA8EE1A102ADC005FB8F0 /* PrincipalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalVC.m; sourceTree = "<group>"; };
+		1E1FA8F01A102AF8005FB8F0 /* Vista02Izq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vista02Izq.h; sourceTree = "<group>"; };
+		1E1FA8F11A102AF8005FB8F0 /* Vista02Izq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vista02Izq.m; sourceTree = "<group>"; };
+		1E1FA8F31A102B09005FB8F0 /* Vista02Der.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vista02Der.h; sourceTree = "<group>"; };
+		1E1FA8F41A102B09005FB8F0 /* Vista02Der.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vista02Der.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +96,23 @@
 		1E1FA8BC1A102788005FB8F0 /* PrySliderNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				1E1FA8E31A102A53005FB8F0 /* Libreria */,
 				1E1FA8C11A102788005FB8F0 /* AppDelegate.h */,
 				1E1FA8C21A102788005FB8F0 /* AppDelegate.m */,
-				1E1FA8C41A102788005FB8F0 /* ViewController.h */,
-				1E1FA8C51A102788005FB8F0 /* ViewController.m */,
 				1E1FA8C71A102788005FB8F0 /* Main.storyboard */,
 				1E1FA8CA1A102788005FB8F0 /* Images.xcassets */,
 				1E1FA8CC1A102788005FB8F0 /* LaunchScreen.xib */,
 				1E1FA8BD1A102788005FB8F0 /* Supporting Files */,
+				1E1FA8E71A102A9D005FB8F0 /* MenuIzqVC.h */,
+				1E1FA8E81A102A9D005FB8F0 /* MenuIzqVC.m */,
+				1E1FA8EA1A102AB6005FB8F0 /* MenuDerVC.h */,
+				1E1FA8EB1A102AB6005FB8F0 /* MenuDerVC.m */,
+				1E1FA8ED1A102ADC005FB8F0 /* PrincipalVC.h */,
+				1E1FA8EE1A102ADC005FB8F0 /* PrincipalVC.m */,
+				1E1FA8F01A102AF8005FB8F0 /* Vista02Izq.h */,
+				1E1FA8F11A102AF8005FB8F0 /* Vista02Izq.m */,
+				1E1FA8F31A102B09005FB8F0 /* Vista02Der.h */,
+				1E1FA8F41A102B09005FB8F0 /* Vista02Der.m */,
 			);
 			path = PrySliderNavigation;
 			sourceTree = "<group>";
@@ -117,6 +141,15 @@
 				1E1FA8D81A102789005FB8F0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E1FA8E31A102A53005FB8F0 /* Libreria */ = {
+			isa = PBXGroup;
+			children = (
+				1E1FA8E41A102A5D005FB8F0 /* SWRevealViewController.h */,
+				1E1FA8E51A102A5D005FB8F0 /* SWRevealViewController.m */,
+			);
+			name = Libreria;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E1FA8C61A102788005FB8F0 /* ViewController.m in Sources */,
+				1E1FA8EC1A102AB6005FB8F0 /* MenuDerVC.m in Sources */,
+				1E1FA8EF1A102ADC005FB8F0 /* PrincipalVC.m in Sources */,
 				1E1FA8C31A102788005FB8F0 /* AppDelegate.m in Sources */,
+				1E1FA8F51A102B09005FB8F0 /* Vista02Der.m in Sources */,
+				1E1FA8F21A102AF8005FB8F0 /* Vista02Izq.m in Sources */,
+				1E1FA8E91A102A9D005FB8F0 /* MenuIzqVC.m in Sources */,
 				1E1FA8C01A102788005FB8F0 /* main.m in Sources */,
+				1E1FA8E61A102A5D005FB8F0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
