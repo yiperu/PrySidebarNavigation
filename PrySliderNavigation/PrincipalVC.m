@@ -51,12 +51,18 @@
         // Boton Izquierdo
         [self.btnIzq setTarget: self.revealViewController];
         [self.btnIzq setAction: @selector( revealToggle: )];
-        [self.navigationController.navigationBar addGestureRecognizer: self.revealViewController.panGestureRecognizer];
+//        [self.navigationController.navigationBar addGestureRecognizer: self.revealViewController.panGestureRecognizer];
+        [self.view addGestureRecognizer: self.revealViewController.panGestureRecognizer];
+        
+
+        
+
+        
         
         // Boton Derecho
         [self.btnDer setTarget: self.revealViewController];
         [self.btnDer setAction: @selector( rightRevealToggle: )];
-        [self.navigationController.navigationBar addGestureRecognizer: self.revealViewController.panGestureRecognizer];
+//        [self.navigationController.navigationBar addGestureRecognizer: self.revealViewController.panGestureRecognizer];
     }
 }
 
